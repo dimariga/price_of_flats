@@ -1,6 +1,3 @@
-link for requirements.txt
-https://github.com/dimariga/price_of_flats/edit/main/requirements.txt
-
 import joblib
 import streamlit as st
 import pandas as pd
