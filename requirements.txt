@@ -1,1 +1,1 @@
-sklearn
+sklearn.model_selection
