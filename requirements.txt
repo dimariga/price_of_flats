@@ -1,6 +1,1 @@
-sklearn.model_selection
-sklearn.pipeline
-sklearn.preprocessing
-sklearn.compose
-sklearn.pipeline
-sklearn.ensemble
+sklearn
