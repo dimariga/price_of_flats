@@ -83,9 +83,8 @@ dict_data = {
     "lifts": lifts,
 }
 data_predict = pd.DataFrame([dict_data])
-#data_predict.to_csv("123")
 model = joblib.load(PATH_MODEL)
 button = st.button("Предварительная цена")
 if button:
-    result = model.predict(data_predict)[0]
+    result = str(round(model.predict(data_predict)[0])) + " руб."
     st.write(result)
