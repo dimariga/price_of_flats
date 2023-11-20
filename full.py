@@ -1,5 +1,3 @@
-$ pip install sklearn.model_selection
-
 import numpy as np
 import pandas as pd
 from sklearn.model_selection import train_test_split
@@ -104,5 +102,5 @@ dict_data = {
 data_predict = pd.DataFrame([dict_data])
 button = st.button("Предварительная цена")
 if button:
-    result = model.predict(data_predict)[0]
+    result = str(round(model.predict(data_predict)[0])) + " руб."
     st.write(result)
